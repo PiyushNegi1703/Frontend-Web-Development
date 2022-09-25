@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap');
+
+*{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+body{
+    background-image: url("https://s3.ap-south-1.amazonaws.com/kalvi-education.github.io/front-end-web-development/superover-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.ind{
+    background-color: blue;
+}
+
+.pak{
+    background-color: green;
+}
+
+.score{
+    height: 350px;
+    width: 450px;
+    display: inline-block;
+    position: relative;
+    left: 370px;
+    top: 100px;
+    margin: 0 80px 0 80px;
+    border-radius: 40px;
+}
+
+.runs{
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+    top: -40px;
+    left: 50px;
+    font-size: 40px;
+    text-align: center;
+    margin-left: 4px;
+}
+
+#super-over{
+    width: 120px;
+    position: relative;
+    left: 920px;
+}
+
+h1{
+    position: inherit;
+    font-size: 75px;
+    left: 170px;
+    color: white;
+}
+
+span{
+    font-size: 40px;
+    position: relative;
+    left: 190px;
+    top: 10px;
+    color: white;
+}
+
+#strike,#reset{
+    width: 100px;
+}
+
+#images{
+    position: relative;
+    top: 200px;
+    left: 865px;
+}
